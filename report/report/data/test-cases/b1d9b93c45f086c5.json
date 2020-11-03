@@ -1,0 +1,98 @@
+{
+  "uid" : "b1d9b93c45f086c5",
+  "name" : "页面2-标题1",
+  "fullName" : "test_pytest1.Test#test_bbc",
+  "historyId" : "416d2257f6cb1a67d726033629b709cd",
+  "time" : {
+    "start" : 1603329949817,
+    "stop" : 1603329949817,
+    "duration" : 0
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert 7 == 2",
+  "statusTrace" : "self = <test_pytest1.Test object at 0x0000000003869FC8>, num1 = 7\n\n    @pytest.mark.parametrize('num1', [6, 5, 7])\n    @allure.story('页面2')\n    @allure.title('页面2-标题1')\n    def test_bbc(self, num1):\n>       assert num1 == 2\nE       assert 7 == 2\n\ntest_pytest1.py:18: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_Class__pytest_setup_method",
+    "time" : {
+      "start" : 1603329949816,
+      "stop" : 1603329949816,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "_Class__pytest_setup_method::0",
+    "time" : {
+      "start" : 1603329949826,
+      "stop" : 1603329949826,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "页面2"
+  }, {
+    "name" : "feature",
+    "value" : "模块1"
+  }, {
+    "name" : "suite",
+    "value" : "test_pytest1"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test"
+  }, {
+    "name" : "host",
+    "value" : "huang-PC"
+  }, {
+    "name" : "thread",
+    "value" : "193688-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_pytest1"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "num1",
+    "value" : "7"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "b1d9b93c45f086c5.json",
+  "parameterValues" : [ "7" ]
+}

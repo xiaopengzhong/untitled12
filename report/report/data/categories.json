@@ -1,0 +1,111 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "AssertionError: assert (2 + 3) == 3",
+      "children" : [ {
+        "name" : "页面1——标题1",
+        "uid" : "e2f0b559f1e95095",
+        "parentUid" : "138e0e827bbd2ed9d518a1ce97995ea1",
+        "status" : "failed",
+        "time" : {
+          "start" : 1603329949688,
+          "stop" : 1603329949688,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "2", "3", "3" ]
+      } ],
+      "uid" : "138e0e827bbd2ed9d518a1ce97995ea1"
+    }, {
+      "name" : "AssertionError: assert (3 + 3) == 3",
+      "children" : [ {
+        "name" : "页面1——标题1",
+        "uid" : "be63c4df34520349",
+        "parentUid" : "4ff2f0282365b21225e28a0336421c88",
+        "status" : "failed",
+        "time" : {
+          "start" : 1603329949775,
+          "stop" : 1603329949775,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "3", "3", "3" ]
+      } ],
+      "uid" : "4ff2f0282365b21225e28a0336421c88"
+    }, {
+      "name" : "AssertionError: assert 6 == 2",
+      "children" : [ {
+        "name" : "页面2-标题1",
+        "uid" : "47e2f68cfec0197a",
+        "parentUid" : "a6412db4012b97537d0899db65e881bd",
+        "status" : "failed",
+        "time" : {
+          "start" : 1603329949792,
+          "stop" : 1603329949793,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "6" ]
+      } ],
+      "uid" : "a6412db4012b97537d0899db65e881bd"
+    }, {
+      "name" : "AssertionError: assert 5 == 2",
+      "children" : [ {
+        "name" : "页面2-标题1",
+        "uid" : "e1fa7655cacb525e",
+        "parentUid" : "2608a918a7320dc31293216924c340fa",
+        "status" : "failed",
+        "time" : {
+          "start" : 1603329949805,
+          "stop" : 1603329949805,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "5" ]
+      } ],
+      "uid" : "2608a918a7320dc31293216924c340fa"
+    }, {
+      "name" : "AssertionError: assert 7 == 2",
+      "children" : [ {
+        "name" : "页面2-标题1",
+        "uid" : "b1d9b93c45f086c5",
+        "parentUid" : "0b2262a0ecd3f11c951356000a1054a4",
+        "status" : "failed",
+        "time" : {
+          "start" : 1603329949817,
+          "stop" : 1603329949817,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "7" ]
+      } ],
+      "uid" : "0b2262a0ecd3f11c951356000a1054a4"
+    }, {
+      "name" : "AssertionError: assert 1 == 2",
+      "children" : [ {
+        "name" : "页面3-标题1",
+        "uid" : "d8fb09fd743793e7",
+        "parentUid" : "d89f5ad50f342bab320c0753c9baac45",
+        "status" : "failed",
+        "time" : {
+          "start" : 1603329949832,
+          "stop" : 1603329949832,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "d89f5ad50f342bab320c0753c9baac45"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}

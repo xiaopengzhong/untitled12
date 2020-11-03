@@ -1,0 +1,116 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "模块1",
+    "children" : [ {
+      "name" : "页面1",
+      "children" : [ {
+        "name" : "页面1——标题1",
+        "uid" : "41edacda89bd4c2b",
+        "parentUid" : "63bfee3289d1e15b9c628c9fa5f26558",
+        "status" : "passed",
+        "time" : {
+          "start" : 1603329949676,
+          "stop" : 1603329949677,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "4", "2", "6" ]
+      }, {
+        "name" : "页面1——标题1",
+        "uid" : "e2f0b559f1e95095",
+        "parentUid" : "63bfee3289d1e15b9c628c9fa5f26558",
+        "status" : "failed",
+        "time" : {
+          "start" : 1603329949688,
+          "stop" : 1603329949688,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "2", "3", "3" ]
+      }, {
+        "name" : "页面1——标题1",
+        "uid" : "be63c4df34520349",
+        "parentUid" : "63bfee3289d1e15b9c628c9fa5f26558",
+        "status" : "failed",
+        "time" : {
+          "start" : 1603329949775,
+          "stop" : 1603329949775,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "3", "3", "3" ]
+      } ],
+      "uid" : "63bfee3289d1e15b9c628c9fa5f26558"
+    }, {
+      "name" : "页面2",
+      "children" : [ {
+        "name" : "页面2-标题1",
+        "uid" : "47e2f68cfec0197a",
+        "parentUid" : "30699b3eb3695e18810a7039b775ba51",
+        "status" : "failed",
+        "time" : {
+          "start" : 1603329949792,
+          "stop" : 1603329949793,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "6" ]
+      }, {
+        "name" : "页面2-标题1",
+        "uid" : "e1fa7655cacb525e",
+        "parentUid" : "30699b3eb3695e18810a7039b775ba51",
+        "status" : "failed",
+        "time" : {
+          "start" : 1603329949805,
+          "stop" : 1603329949805,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "5" ]
+      }, {
+        "name" : "页面2-标题1",
+        "uid" : "b1d9b93c45f086c5",
+        "parentUid" : "30699b3eb3695e18810a7039b775ba51",
+        "status" : "failed",
+        "time" : {
+          "start" : 1603329949817,
+          "stop" : 1603329949817,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "7" ]
+      } ],
+      "uid" : "30699b3eb3695e18810a7039b775ba51"
+    } ],
+    "uid" : "b5c3f93d8b5f214a1d679ec45e927c4d"
+  }, {
+    "name" : "模块2",
+    "children" : [ {
+      "name" : "页面3",
+      "children" : [ {
+        "name" : "页面3-标题1",
+        "uid" : "d8fb09fd743793e7",
+        "parentUid" : "35f0affdf66b294d6d0e247229ad9da2",
+        "status" : "failed",
+        "time" : {
+          "start" : 1603329949832,
+          "stop" : 1603329949832,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "35f0affdf66b294d6d0e247229ad9da2"
+    } ],
+    "uid" : "3234f2f1e549cb86cf59d7c969fbee14"
+  } ]
+}

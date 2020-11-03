@@ -1,0 +1,71 @@
+[ {
+  "uid" : "41edacda89bd4c2b",
+  "name" : "页面1——标题1",
+  "time" : {
+    "start" : 1603329949676,
+    "stop" : 1603329949677,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "be63c4df34520349",
+  "name" : "页面1——标题1",
+  "time" : {
+    "start" : 1603329949775,
+    "stop" : 1603329949775,
+    "duration" : 0
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "b1d9b93c45f086c5",
+  "name" : "页面2-标题1",
+  "time" : {
+    "start" : 1603329949817,
+    "stop" : 1603329949817,
+    "duration" : 0
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "e2f0b559f1e95095",
+  "name" : "页面1——标题1",
+  "time" : {
+    "start" : 1603329949688,
+    "stop" : 1603329949688,
+    "duration" : 0
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "e1fa7655cacb525e",
+  "name" : "页面2-标题1",
+  "time" : {
+    "start" : 1603329949805,
+    "stop" : 1603329949805,
+    "duration" : 0
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "d8fb09fd743793e7",
+  "name" : "页面3-标题1",
+  "time" : {
+    "start" : 1603329949832,
+    "stop" : 1603329949832,
+    "duration" : 0
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "47e2f68cfec0197a",
+  "name" : "页面2-标题1",
+  "time" : {
+    "start" : 1603329949792,
+    "stop" : 1603329949793,
+    "duration" : 1
+  },
+  "status" : "failed",
+  "severity" : "normal"
+} ]

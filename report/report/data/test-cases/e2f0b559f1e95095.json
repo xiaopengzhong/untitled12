@@ -1,0 +1,104 @@
+{
+  "uid" : "e2f0b559f1e95095",
+  "name" : "页面1——标题1",
+  "fullName" : "test_pytest1.Test#test_abc",
+  "historyId" : "408fcaa5b66f7a6d275d583eb88b10ce",
+  "time" : {
+    "start" : 1603329949688,
+    "stop" : 1603329949688,
+    "duration" : 0
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert (2 + 3) == 3",
+  "statusTrace" : "self = <test_pytest1.Test object at 0x000000000386BF48>, number1 = 2\nnumber2 = 3, number3 = 3\n\n    @pytest.mark.parametrize('number1,number2,number3', [(4, 2, 6), (2, 3, 3), (3, 3, 3)])  # 数据驱动（参数化）\n    @allure.story('页面1')\n    @allure.title('页面1——标题1')\n    def test_abc(self, number1, number2, number3):\n        print('第1次执行')\n>       assert number1+number2 == number3\nE       assert (2 + 3) == 3\n\ntest_pytest1.py:13: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_Class__pytest_setup_method",
+    "time" : {
+      "start" : 1603329949687,
+      "stop" : 1603329949687,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "_Class__pytest_setup_method::0",
+    "time" : {
+      "start" : 1603329949769,
+      "stop" : 1603329949769,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "模块1"
+  }, {
+    "name" : "story",
+    "value" : "页面1"
+  }, {
+    "name" : "suite",
+    "value" : "test_pytest1"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test"
+  }, {
+    "name" : "host",
+    "value" : "huang-PC"
+  }, {
+    "name" : "thread",
+    "value" : "193688-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_pytest1"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "number1",
+    "value" : "2"
+  }, {
+    "name" : "number2",
+    "value" : "3"
+  }, {
+    "name" : "number3",
+    "value" : "3"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "e2f0b559f1e95095.json",
+  "parameterValues" : [ "2", "3", "3" ]
+}

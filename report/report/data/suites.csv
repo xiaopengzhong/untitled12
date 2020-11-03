@@ -1,0 +1,8 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Thu Oct 22 09:25:49 CST 2020","Thu Oct 22 09:25:49 CST 2020","1","","test_pytest1","Test","","","页面1——标题1",""
+"failed","Thu Oct 22 09:25:49 CST 2020","Thu Oct 22 09:25:49 CST 2020","0","","test_pytest1","Test","","","页面1——标题1",""
+"failed","Thu Oct 22 09:25:49 CST 2020","Thu Oct 22 09:25:49 CST 2020","0","","test_pytest1","Test","","","页面2-标题1",""
+"failed","Thu Oct 22 09:25:49 CST 2020","Thu Oct 22 09:25:49 CST 2020","0","","test_pytest1","Test","","","页面1——标题1",""
+"failed","Thu Oct 22 09:25:49 CST 2020","Thu Oct 22 09:25:49 CST 2020","0","","test_pytest1","Test","","","页面2-标题1",""
+"failed","Thu Oct 22 09:25:49 CST 2020","Thu Oct 22 09:25:49 CST 2020","0","","test_pytest1","Test2","","","页面3-标题1",""
+"failed","Thu Oct 22 09:25:49 CST 2020","Thu Oct 22 09:25:49 CST 2020","1","","test_pytest1","Test","","","页面2-标题1",""
