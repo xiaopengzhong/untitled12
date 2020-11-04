@@ -19,4 +19,22 @@ class Driver:
             cls._driver.maximize_window()
             # 访问默认的页面
             cls._driver.get(DOMAIN)
+            cls.cookie()
         return cls._driver
+    # 免登陆方法
+    @classmethod
+    def cookie(cls):
+        c = [{'domain': '127.0.0.1', 'httpOnly': False, 'name': 'Hm_lpvt_750463144f16fe69eb3ac11bea1c4436', 'path': '/',
+              'secure': False, 'value': '1604475313'},
+             {'domain': '127.0.0.1', 'expiry': 1636011313, 'httpOnly': False,
+                                                        'name': 'Hm_lvt_750463144f16fe69eb3ac11bea1c4436', 'path': '/',
+                                                        'secure': False, 'value': '1604475313'},
+             {'domain': '127.0.0.1', 'expiry': 1636011312.93809, 'httpOnly': True, 'name': 'beegosessionID',
+              'path': '/', 'secure': False, 'value': '2f9cfb9e27a73c10db2cb1f7a68ec6a7'}]
+        # 清除登录前cookie
+        cls._driver.delete_all_cookies()
+        # 添加cookie
+        for i in c:
+            cls._driver.add_cookie(i)
+        # 刷新页面
+        cls._driver.refresh()
