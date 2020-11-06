@@ -1,3 +1,6 @@
+"""
+@file:myDriver.py
+"""
 from selenium import webdriver
 from po模式2.mySetting import driverPath, DOMAIN
 class Driver:
@@ -38,3 +41,5 @@ class Driver:
             cls._driver.add_cookie(i)
         # 刷新页面
         cls._driver.refresh()
+if __name__ == '__main__':
+    Driver().get_driver()

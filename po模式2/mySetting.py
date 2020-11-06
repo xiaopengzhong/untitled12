@@ -1,3 +1,6 @@
+"""
+@file:mySetting.py
+"""
 # 域名
 DOMAIN = "http://127.0.0.1:8088"
 # 超时时间

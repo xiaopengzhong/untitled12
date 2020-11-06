@@ -14,3 +14,4 @@ class ManProPageAction(ManPraPage):
 if __name__=='__main__':
     ManProPageAction().mana()
 
+
