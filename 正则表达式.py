@@ -51,5 +51,3 @@ import re
 # str6 = '''ABCJHFK abchhbbFF
 # hhhh PPPP   ggggg   ggv vvvvvv'''
 # print(re.findall('ABC(.*?)vvv', str6, re.S))
-
-#
